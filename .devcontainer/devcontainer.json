@@ -1,6 +1,7 @@
 {
-    "build": { "dockerfile": "codespaces.Dockerfile" },
-    "containerEnv": {
-        "PATH": "${localWorkspaceFolder}/.dotnet:${containerEnv:PATH}"
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:bullseye",
+    "postCreateCommand": "bash ./devcontainer/setup.sh",
+    "remoteEnv": {
+        "PATH": "${containerWorkspaceFolder}/.dotnet:${containerEnv:PATH}"
     }
 }
