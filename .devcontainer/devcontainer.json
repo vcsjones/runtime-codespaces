@@ -2,5 +2,6 @@
     "build": { "dockerfile": "codespaces.Dockerfile" },
     "remoteEnv": {
         "PATH": "${containerWorkspaceFolder}/.dotnet:${containerEnv:PATH}"
-    }
+    },
+    "remoteUser": "vscode"
 }
