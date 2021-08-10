@@ -1,0 +1,6 @@
+{
+    "build": { "dockerfile": "codespaces.Dockerfile" },
+    "containerEnv": {
+        "PATH": "${localWorkspaceFolder}/.dotnet:${containerEnv:PATH}"
+    }
+}

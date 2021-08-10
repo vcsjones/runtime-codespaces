@@ -278,7 +278,6 @@ Session.vim
 
 # Visual Studio Code
 .vscode/
-.devcontainer/
 
 # Private test configuration and binaries.
 config.ps1
