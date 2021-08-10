@@ -1,6 +1,6 @@
 {
     "image": "mcr.microsoft.com/vscode/devcontainers/base:bullseye",
-    "postCreateCommand": "bash ./.devcontainer/setup.sh",
+    "onCreateCommand": "bash ./.devcontainer/setup.sh",
     "remoteEnv": {
         "PATH": "${containerWorkspaceFolder}/.dotnet:${containerEnv:PATH}"
     }
